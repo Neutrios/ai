@@ -1,0 +1,32 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "*"
+langchain-core = "*"
+langchain-community = "*"
+streamlit = "*"
+gpt4all = "*"
+chromadb = "*"
+ollama = "*"
+beautifulsoup4 = "*"
+gradio = "*"
+langchain-nomic = "*"
+tiktoken = "*"
+langchainhub = "*"
+langgraph = "*"
+tavily-python = "*"
+unstructured = {extras = ["all-docs"] }
+faiss-cpu = "*"
+langserve = {extras = ["all"] }
+huggingface-hub = "*"
+sentence-transformers = "*"
+langchain-cli = "*"
+llama-cpp-python = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
